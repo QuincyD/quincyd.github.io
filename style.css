@@ -1,0 +1,86 @@
+:root {
+	--my_green: #487959;
+	--fade_green: #8cbd9d;
+	--info_width: 45%;
+}
+
+header{
+	background:#000;
+	color: var(--my_green);
+	padding: 5px 15px;
+}
+
+#head {
+	text-align: center;
+	-webkit-columns: 250px 4;
+	-moz-columns: 250px 4;
+    columns: 250px 4;
+}
+
+#my_face {
+	text-align: center;
+	width: 80%;
+	height: 65%
+}
+
+#contact_info {
+	text-align: left;
+	margin-left: 10%
+}
+
+body{
+	margin: 0;
+	background-color: var(--fade_green);
+	color: var(--my_green);
+	text-align: center;
+}
+
+nav ul{
+	margin: 0;
+	margin-left: 20%;
+	display: inline;
+	float: center;
+}
+
+#links ul li{
+	background: black;
+	color: var(--my_green);
+	display: inline;
+	padding: 1% 1%;
+	border-radius: 1%;
+}
+
+#links ul li a{
+	color: var(--my_green);
+}
+
+#about {
+	text-align: left;
+	margin-left: 15%;
+	width: var(--info_width);
+}
+
+#projects {
+	text-align: left;
+	margin-left: 40%;
+	width: var(--info_width);
+}
+
+#resume {
+	text-align: left;
+	margin-left: 25%;
+	width: var(--info_width);
+}
+
+#resume_download {
+	text-align: center;
+}
+
+footer {
+	clear: both;
+}
+
+footer img{
+	display:inline;
+	margin: 20%;
+}
