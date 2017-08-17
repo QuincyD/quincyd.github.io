@@ -2,6 +2,7 @@
 	--my_green: #487959;
 	--fade_green: #8cbd9d;
 	--info_width: 45%;
+	--info_font_size: 125%;
 }
 
 header{
@@ -58,18 +59,21 @@ nav ul{
 	text-align: left;
 	margin-left: 15%;
 	width: var(--info_width);
+	font-size: var(--info_font_size);
 }
 
 #projects {
 	text-align: left;
 	margin-left: 40%;
 	width: var(--info_width);
+	font-size: var(--info_font_size);
 }
 
 #resume {
 	text-align: left;
 	margin-left: 25%;
 	width: var(--info_width);
+	font-size: var(--info_font_size);
 }
 
 #resume_download {
