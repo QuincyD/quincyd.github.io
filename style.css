@@ -64,19 +64,19 @@ nav ul{
 
 #projects {
 	text-align: left;
-	margin-left: 40%;
+	margin-left: 15%;
 	width: var(--info_width);
 	font-size: var(--info_font_size);
 }
 
-#resume {
+#resume #mission {
 	text-align: left;
 	margin-left: 25%;
 	width: var(--info_width);
 	font-size: var(--info_font_size);
 }
 
-#resume_download {
+#resume_download #mission_download {
 	text-align: center;
 }
 
